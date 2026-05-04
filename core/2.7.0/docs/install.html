@@ -1,0 +1,135 @@
+html PUBLIC "-//W3C//DTD HTML 4.01 过渡//EN"
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>XOOPS安装说明</title>
+<meta content="XOOPS" name="keywords"/>
+<meta content="XOOPS installation guide" name="description"/>
+<style type="text/css">
+        body {
+            font-family:                        Lucida Grande, Verdana, Geneva, Sans-serif;
+            margin:                             0;
+            padding:                            0;
+            font-size:                          13px;
+            color:                              #333;
+            background-color:                   #fff;
+        }
+
+        a {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+            font-weight:                        normal;
+        }
+
+        a:visited {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+        }
+
+        a:hover {
+            color:                              #3D9DD3;
+            text-decoration:                    none;
+            background-color:                   transparent;
+        }
+
+        .page {
+            background-color:                   #fff;
+            margin:                             10px 30px 0;
+            padding:                            0;
+        }
+
+        .page h1 {
+            background-color:                   transparent;
+            border-bottom:                      1px solid #999;
+            color:                              #000;
+            font-size:                          18px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h2 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          16px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h3 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          14px;
+            font-weight:                        bold;
+        }
+
+        .page ul {
+            margin:                             20px 0 15px 0;
+        }
+
+        .page li {
+            margin-bottom:                      9px;
+        }
+
+        .page li p {
+            margin-left:                        0;
+            margin-right:                       0;
+        }
+
+        p {    }
+
+    </style>
+</head>
+<body>
+<div class="page">
+<h1>安装XOOPS</h1>
+<h2>第一次安装</h2>
+<h3>前言：</h3>
+<p>
+<abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> 是一个开源的
+        用 PHP 编写的面向对象的 Web 发布系统。它是一个理想的工具
+        开发从小到大的动态社区网站、公司内部门户、企业门户、博客等等。
+    </p>
+<p>
+        XOOPS 是根据以下条款发布的
+        <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU 通用公共许可证 (GPL)</a>
+        版本 2 或更高版本，并且可以免费使用和修改。
+        只要您遵守 GPL 的分发条款，就可以免费重新分发。
+    </p>
+<h2>要求</h2>
+<ul>
+<li>万维网服务器（<a href="http://www.apache.org/" rel="external">阿帕奇</a>, <a href="https://www.nginx.com/" rel="external" s="">NGINX</a>、IIS 等）</li>
+<li><a href="https://www.php.net/" rel="external">PHP</a> 8.2或更高，推荐8.4+</li>
+<li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.7 .8 或更高版本，推荐 MySQL 8.4.5+</li>
+</ul>
+<h3>安装之前</h3>
+<ol>
+<li>正确设置WWW服务器、PHP和数据库服务器。</li>
+<li>为您的 XOOPS 站点准备一个数据库。</li>
+<li>准备用户帐户并授予用户访问数据库的权限。</li>
+<li>使目录和文件可写：%s</li>
+<li>出于安全考虑，强烈建议您将以下两个目录移出 <a href="http://phpsec.org/projects/guide/3.html" rel="external">文档根目录</a> 并更改文件夹名称：%s</li>
+<li>创建（如果尚不存在）并使目录可写：%s</li>
+<li>打开浏览器的cookie和JavaScript。</li>
+</ol>
+<h2>本地安装</h2>
+<p>如果您正在运行本地环境进行开发或测试，请确保您有以前的
+    满足要求。完成后，将内容复制到 <em>htdocs</em> directory (from the XOOPS
+    分发文件）复制到您的 Web 环境的根文档路径。 Once the files are copied there,
+    您可以通过将浏览器指向“http://<em>yoursite.com</em>"。这将启动安装过程。
+</p>
+<h2>在托管平台上安装</h2>
+<p>如果您在托管环境中运行，请在本地或服务器上解压 XOOPS 文件（如果您有）
+    shell（即 SSH）访问。完成后，请确保从以下位置移动或复制所有 XOOPS 文件： <em>htdocs</em>
+    目录到您的根 Web 目录（您的提供商通常会提供此位置的说明）。
+    将文件复制到那里后，您可以通过将浏览器指向来开始安装
+    “http://<em>yoursite.com</em>"。这将启动安装过程。
+</p>
+<h2>继续安装</h2>
+<p>只需按照安装程序中的分步说明进行操作即可。</p>
+</div>
+</body>
+</html>

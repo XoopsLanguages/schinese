@@ -1,0 +1,50 @@
+<div class="outer" id="help-template">
+<h1 class="head">帮助： <a class="ui-corner-all tooltip" href="&lt;{$xoops_url}&gt;/modules/profile/admin/index.php" title="Back to the Administration of Profile"> 个人资料 <img alt="Back to the Administration of Profile" src="&lt;{xoAdminIcons 'home.png'}&gt;"/></a></h1>
+ -----帮助内容---------- 
+<h4 class="odd">描述</h4>
+<p class="even">配置文件模块用于管理自定义用户配置文件字段。</p>
+<h4 class="odd">安装/卸载</h4>
+<p>无需采取特殊措施，请遵循标准安装过程 - 将 /profile 文件夹解压到 ../modules 目录中。通过管理 -&gt; 系统模块 -&gt; 模块安装模块。</p>
+<p>有关安装模块的详细说明可在 <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS Operations Manual">XOOPS操作手册</a> <br/><br/></p>
+<h4 class="odd">操作说明</h4>
+<p class="even">要设置此模块，您需要：</p>
+<ul>
+<li>Configure your preferences for the module (see ‘Preferences’) and optionally the Profile block if you intend to use it (see ‘Blocks’).</li>
+<li>编辑现有类别或添加新类别。</li>
+<li>编辑现有字段或添加新字段。您可以在此处指定哪些字段在哪个类别中可见，以及它们在用户注册期间是否可见。</li>
+<li>定义注册步骤的顺序。</li>
+<li>最后，您可以为各个字段设置权限 - 哪些字段可编辑，哪些字段可搜索。<br/><br/></li>
+</ul>
+<h4 class="odd">反垃圾邮件措施</h4>
+<p class="even">要最大限度地减少垃圾邮件注册，请执行以下操作：</p>
+<ul>
+<li> 转到管理中的保护器模块，转到首选项，然后在底部的此选项中：
+
+            “阻止论坛垃圾邮件”
+            检查在 www.stopforumspam.com 数据库上注册的垃圾邮件发送者的 POST 数据。 <br/>
+            设置为“禁止IP（无限制）”
+        </li>
+<br/>
+<li> 在 /class/captcha/config.php 中，确保模式设置为“文本”：<br/><br/>
+<span style="font-style: italic;">     返回 $config = 数组(<br/>
+    'disabled' =&gt; false, // 禁用验证码<br/>
+    'mode' =&gt; 'text', // 默认模式，可以选择 'text', 'image', 'recaptcha'(需要 api key)<br/>
+    'name' =&gt; 'xoopscaptcha', // 验证码名称<br/>
+    'skipmember' =&gt; true, // 跳过会员验证码检查<br/>
+    'maxattempts' =&gt; 10, // 每个会话的最大尝试次数<br/>
+    );</span></li>
+<br/>
+<li> 在“配置文件”模块中，转到“管理”，然后在“基本”步骤中位于：<br/>
+
+            /modules/profile/admin/step.php?id=1<br/>
+
+            将“停止后保存”设置为“否”
+        </li>
+<br/><br/>
+<li> 在配置文件首选项中，将“第二个注册步骤后使用验证码”选项设置为“是”（这是默认值）</li>
+<br/>
+<ul>
+<h4 class="odd">教程</h4>
+<p class="even">教程即将推出。<br/></p>
+ -----帮助内容---------- 
+</ul></ul></div>
