@@ -1,0 +1,164 @@
+<?php
+/**
+ * @copyright       (c) 2000-2026 XOOPS Project (https://xoops.org)
+ * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * _LANGCODE    zh_CN
+ * _CHARSET     UTF-8
+ */
+define('_AM_SYSTEM_MODULES_ADMIN', 'XOOPS 模块管理');
+define('_AM_SYSTEM_MODULES_LIST', '模块列表');
+define('_AM_SYSTEM_MODULES_TOINSTALL', '安装模块');
+define('_AM_SYSTEM_MODULES_VALIDATE', '验证更改');
+define('_AM_SYSTEM_MODULES_SUBMITRES', '提交结果');
+define('_AM_SYSTEM_MODULES_RUSUREINS', '点击下面的按钮安装此模块');
+define('_AM_SYSTEM_MODULES_RUSUREUNINS', '您确定要卸载此模块吗？');
+define('_AM_SYSTEM_MODULES_RUSUREUPD', '点击下面的按钮更新此模块');
+define('_AM_SYSTEM_MODULES_BTOMADMIN', 'XOOPS 模块管理');
+define('_AM_SYSTEM_MODULES_INSTALLING', '正在安装 ');
+define('_AM_SYSTEM_MODULES_DEACTIVATE', '停用 ');
+define('_AM_SYSTEM_MODULES_ACTIVATE', '激活 ');
+define('_AM_SYSTEM_MODULES_UPDATING', '正在更新 ');
+define('_AM_SYSTEM_MODULES_INSTALL', '安装');
+define('_AM_SYSTEM_MODULES_UNINSTALL', '卸载');
+define('_AM_SYSTEM_MODULES_UPDATE', '更新');
+define('_AM_SYSTEM_MODULES_VIEWLARGE', '大视图');
+define('_AM_SYSTEM_MODULES_VIEWLINE', '行视图');
+define('_AM_SYSTEM_MODULES_FAILINS', '无法安装 %s。');
+define('_AM_SYSTEM_MODULES_FAILACT', '无法激活 %s。');
+define('_AM_SYSTEM_MODULES_FAILDEACT', '无法停用 %s。');
+define('_AM_SYSTEM_MODULES_FAILUPD', '无法更新 %s。');
+define('_AM_SYSTEM_MODULES_FAILUNINS', '无法卸载 %s。');
+define('_AM_SYSTEM_MODULES_FAILORDER', '无法重新排序 %s。');
+define('_AM_SYSTEM_MODULES_FAILWRITE', '无法写入主菜单。');
+define('_AM_SYSTEM_MODULES_ALEXISTS', '模块 %s 已存在。');
+define('_AM_SYSTEM_MODULES_OKINS', '模块 %s 安装成功。');
+define('_AM_SYSTEM_MODULES_OKACT', '模块 %s 激活成功。');
+define('_AM_SYSTEM_MODULES_OKDEACT', '模块 %s 已成功停用。');
+define('_AM_SYSTEM_MODULES_OKUPD', '模块 %s 更新成功。');
+define('_AM_SYSTEM_MODULES_OKUNINS', '模块 %s 卸载成功。');
+define('_AM_SYSTEM_MODULES_OKORDER', '模块 %s 更改成功。');
+define('_AM_SYSTEM_MODULES_MODULE', '模块');
+define('_AM_SYSTEM_MODULES_VERSION', '版本');
+define('_AM_SYSTEM_MODULES_LASTUP', '最后更新');
+define('_AM_SYSTEM_MODULES_DEACTIVATED', '已禁用');
+define('_AM_SYSTEM_MODULES_ACTION', '操作');
+define('_AM_SYSTEM_MODULES_MENU', '菜单');
+define('_AM_SYSTEM_MODULES_HIDE', '隐藏');
+define('_AM_SYSTEM_MODULES_SHOW', '显示');
+define('_AM_SYSTEM_MODULES_DUPEN', '模块表中有重复条目！');
+define('_AM_SYSTEM_MODULES_DEACTED', '所选模块已被停用。您现在可以安全地卸载该模块。');
+define('_AM_SYSTEM_MODULES_ACTED', '所选模块已被激活！');
+define('_AM_SYSTEM_MODULES_UPDTED', '所选模块已被更新！');
+define('_AM_SYSTEM_MODULES_SYSNO', '系统模块不能被停用。');
+define('_AM_SYSTEM_MODULES_STRTNO', '该模块被设置为您的默认起始页。请将启动模块更改为适合您的喜好的模块。');
+define('_AM_SYSTEM_MODULES_ORDER', '排序');
+define('_AM_SYSTEM_MODULES_ACTIVE', '激活');
+define('_AM_SYSTEM_MODULES_INACTIVE', '未激活');
+define('_AM_SYSTEM_MODULES_NOTINSTALLED', '未安装');
+define('_AM_SYSTEM_MODULES_NOCHANGE', '无变化');
+define('_AM_SYSTEM_MODULES_SUBMIT', '提交');
+define('_AM_SYSTEM_MODULES_CANCEL', '取消');
+define('_AM_SYSTEM_MODULES_DBUPDATE', _AM_SYSTEM_DBUPDATED);
+define('_AM_SYSTEM_MODULES_NEWBLKS', 'New Blocks');
+define('_AM_SYSTEM_MODULES_DEPREBLKS', '已弃用的块');
+define('_AM_SYSTEM_MODULES_TABLE_RESERVED', '%s 是预订桌！');
+define('_AM_SYSTEM_MODULES_CREATE_TABLES', '正在创建表...');
+define('_AM_SYSTEM_MODULES_TABLE_CREATED', '表 %s 已创建');
+define('_AM_SYSTEM_MODULES_INSERT_DATA', '&nbsp;&nbsp;数据插入表 %s');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_FAILD', '无法将 %s 插入数据库。');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_DONE', '模块数据插入成功。');
+define('_AM_SYSTEM_MODULES_MODULEID', '模块 ID：%s');
+define('_AM_SYSTEM_MODULES_SQL_FOUND', '在 %s 找到 SQL 文件');
+define('_AM_SYSTEM_MODULES_SQL_NOT_FOUND', '在 %s 处找不到 SQL 文件');
+define('_AM_SYSTEM_MODULES_SQL_NOT_CREATE', '错误：无法创建 %s');
+define('_AM_SYSTEM_MODULES_SQL_NOT_VALID', '%s 不是有效的 SQL！');
+define('_AM_SYSTEM_MODULES_GROUP_ID', '群组 ID：%s');
+define('_AM_SYSTEM_MODULES_NAME', '姓名：');
+define('_AM_SYSTEM_MODULES_VALUE', '值：');
+define('_AM_SYSTEM_MODULES_TEMPLATES_ADD', '正在添加模板...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_DELETE', '正在删除模板...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_UPDATE', '正在更新模板...');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ID', '模板 ID：%s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA', '模板 %s 添加到数据库');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', '错误：无法将模板 %s 插入数据库。');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', '模板 %s 已编译');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', '错误：编译模板失败 %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA', '模板 %s 从数据库中删除。');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD', '错误：无法从数据库中删除模板 %s。');
+define('_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA', '模板 %s 已插入数据库。');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE', '模板 %s 重新编译');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD', '错误：模板 %s 重新编译失败');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR', '错误：无法重新编译模板 %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR', '错误：无法删除旧模板 %s。正在中止此文件的更新。');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE', '模板 %s 已更新。');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR', '错误：无法更新 %s 模板。');
+define('_AM_SYSTEM_MODULES_BLOCKS_ADD', '正在添加区块...');
+define('_AM_SYSTEM_MODULES_BLOCKS_DELETE', '正在删除区块...');
+define('_AM_SYSTEM_MODULES_BLOCKS_REBUILD', '正在重建区块...');
+define('_AM_SYSTEM_MODULES_BLOCK_ID', '区块 ID：%s');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS', '添加了块访问权限');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', '错误：无法添加块访问权限');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD', '块 %s 添加');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', '错误：无法将块 %s 添加到数据库！');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', '数据库错误：%s');
+define('_AM_SYSTEM_MODULES_BLOCK_CREATED', '区块 %s 已创建');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE', '块 %s 已删除。');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA', '块模板 %s 从数据库中删除。');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR', '错误：无法删除块 %s');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR', '错误：无法从数据库中删除块模板 %s');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED', '块模板 %s 已弃用');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR', '错误：无法删除已弃用的块模板。');
+define('_AM_SYSTEM_MODULES_BLOCK_UPDATE', '块 %s 已更新。');
+define('_AM_SYSTEM_MODULES_GONFIG_ID', '配置 ID：%s');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_ADD', '添加模块配置数据...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_DELETE', '正在删除模块配置选项...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE', '模块数据已更新。');
+define('_AM_SYSTEM_MODULES_CONFIG_ADD', '添加配置选项');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD', '配置 %s 添加到数据库');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR', '错误：无法将配置 %s 插入数据库。');
+define('_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE', '从数据库中删除配置数据。');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR', '错误：无法从数据库中删除配置数据');
+define('_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD', '正在设置组权限...');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR', '错误：无法删除组权限');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED', '组权限已删除');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD', '为组 ID %s 添加了管理员访问权限');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR', '错误：无法为组 ID %s 添加管理员访问权限');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD', '为组 ID 添加了用户访问权限：%s');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR', '错误：无法为组 ID 添加用户访问权限：%s');
+define('_AM_SYSTEM_MODULES_FAILED_EXECUTE', '无法执行 %s');
+define('_AM_SYSTEM_MODULES_FAILED_SUCESS', '%s 执行成功。');
+define('_AM_SYSTEM_MODULES_DELETE_ERROR', '错误：无法删除 %s');
+define('_AM_SYSTEM_MODULES_UPDATE_ERROR', '错误：无法更新 %s');
+define('_AM_SYSTEM_MODULES_DELETE_MOD_TABLES', '正在删除模块表...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE', '正在删除评论...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR', '错误：无法删除评论');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETED', '评论已删除');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE', '正在删除通知...');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR', '错误：无法删除通知');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED', '通知已删除');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED', '表 %s 已丢失！');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR', '错误：无法删除表 %s');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED', '错误：不允许删除表 %s ！');
+define('_AM_SYSTEM_MODULES_CONFIRM_TIPS', '<ul>
+<li>检查所有修改以进行验证。</li>
+</ul>');
+define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA', '添加测试数据');
+define('_AM_SYSTEM_MODULES_INSTALL_MORE', '安装更多模块');
+define('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', '此模块管理员');
+define('_AM_SYSTEM_MODULES_FK_DISABLE', '无法禁用外键检查');
+define('_AM_SYSTEM_MODULES_FK_ENABLE', '无法启用外键检查');
+define('_AM_SYSTEM_MODULES_DROP_FAIL', '删除表失败：%s');
+define('_AM_SYSTEM_MODULES_DROP_OK', '删除的表：%s');
+
+//2.7.1 backfilled translations
+define('_AM_SYSTEM_MODULES_TIPS', '<ul>
+<li>如果您安装了新模块，请记得设置模块首选项、区块和用户权限！</li>
+<li>要在主菜单区块中隐藏模块，请将顺序设置为 0。</li>
+<li>从服务器上删除未使用的模块文件，以避免安全问题并保持网站安全。</li>
+<li>要更改模块的顺序（将反映在菜单中），您只需将模块拖放到所需位置。</li>
+</ul>');
+define('_AM_SYSTEM_MODULES_ORDER0', '（0 = 隐藏）');
+define('_AM_SYSTEM_MODULES_ERRORSC', '错误：');
+define('_AM_SYSTEM_MODULES_LISTUPBLKS', '以下区块将被更新。<br>请选择其内容（模板和选项）可被覆盖的区块。<br>');
+//2.7.1
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_INVALID', ' ERROR: Skipped malformed config entry %s. ');

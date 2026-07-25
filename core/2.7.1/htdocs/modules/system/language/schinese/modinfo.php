@@ -1,0 +1,80 @@
+<?php
+/**
+ * @copyright       (c) 2000-2026 XOOPS Project (https://xoops.org)
+ * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * _LANGCODE    zh_CN
+ * _CHARSET     UTF-8
+ */
+define('_MI_SYSTEM_NAME', '系统');
+define('_MI_SYSTEM_DESC', '用于网站核心设置的管理。');
+define('_MI_SYSTEM_BNAME2', '用户菜单');
+define('_MI_SYSTEM_BNAME3', '登录');
+define('_MI_SYSTEM_BNAME4', '搜索');
+define('_MI_SYSTEM_BNAME5', '待审内容');
+define('_MI_SYSTEM_BNAME6', '主菜单');
+define('_MI_SYSTEM_BNAME7', '网站信息');
+define('_MI_SYSTEM_BNAME8', '谁在线');
+define('_MI_SYSTEM_BNAME9', '顶级发帖者');
+define('_MI_SYSTEM_BNAME10', '新成员');
+define('_MI_SYSTEM_BNAME11', '最新评论');
+define('_MI_SYSTEM_BNAME12', '通知选项');
+define('_MI_SYSTEM_BNAME13', '主题');
+define('_MI_SYSTEM_ADMENU1', '横幅广告');
+define('_MI_SYSTEM_ADMENU2', '栏目');
+define('_MI_SYSTEM_ADMENU3', '组');
+define('_MI_SYSTEM_ADMENU5', '模块');
+define('_MI_SYSTEM_ADMENU6', '首选项');
+define('_MI_SYSTEM_ADMENU7', '表情符号');
+define('_MI_SYSTEM_ADMENU9', '用户等级');
+define('_MI_SYSTEM_ADMENU10', '编辑用户');
+define('_MI_SYSTEM_ADMENU11', '发送邮件给用户');
+define('_MI_SYSTEM_ADMENU12', '查找用户');
+define('_MI_SYSTEM_ADMENU13', '图片');
+define('_MI_SYSTEM_ADMENU14', '头像');
+define('_MI_SYSTEM_ADMENU15', '模板');
+define('_MI_SYSTEM_ADMENU16', '评论');
+define('_MI_SYSTEM_PREFERENCE_BREAK_GENERAL', '常规设置');
+define('_MI_SYSTEM_PREFERENCE_TIPS', '在线帮助？');
+define('_MI_SYSTEM_PREFERENCE_TIPS_DSC', '这为您提供提示和在线帮助');
+define('_MI_SYSTEM_PREFERENCE_ICONS', '图标');
+define('_MI_SYSTEM_PREFERENCE_BREADCRUMB', '面包屑');
+define('_MI_SYSTEM_PREFERENCE_BREAK_ACTIVE', '活动节');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_AVATARS', '启用头像');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BANNERS', '启用横幅');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BLOCKSADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_COMMENTS', '启用评论');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_FILEMANAGER', '活动文件管理器');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_GROUPS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_IMAGES', '活动图像管理器');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAILUSERS', '活跃电子邮件用户');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MODULESADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_PREFERENCES', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_SMILIES', '启用表情');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_TPLSETS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERRANK', '启用用户等级');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERS', '启用用户');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAINTENANCE', '启用维护');
+define('_MI_SYSTEM_PREFERENCE_BREAK_PAGER', '在管理中显示的行数');
+define('_MI_SYSTEM_PREFERENCE_AVATARS_PAGER', '每页显示的头像数量');
+define('_MI_SYSTEM_PREFERENCE_BANNERS_PAGER', '每页显示的横幅数量');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_PAGER', '每页显示的评论数');
+define('_MI_SYSTEM_PREFERENCE_GROUPS_PAGER', '每页显示的组数');
+define('_MI_SYSTEM_PREFERENCE_IMAGES_PAGER', '每页显示的图像数量');
+define('_MI_SYSTEM_PREFERENCE_SMILIES_PAGER', '每页显示的表情符号数量');
+define('_MI_SYSTEM_PREFERENCE_USERRANKS_PAGER', '每页显示的排名数');
+define('_MI_SYSTEM_PREFERENCE_USERS_PAGER', '每页显示的用户数');
+define('_MI_SYSTEM_PREFERENCE_BREAK_EDITOR', '编辑器设置');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR', '块编辑器:');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR', '评论编辑器:');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR', '所有模块的编辑器:');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_ANONPOST', '');
+define('_MI_SYSTEM_PREFERENCE_REDIRECT', '');
+define('_MI_SYSTEM_PREFERENCE_JQUERY_THEME', 'jQuery 主题');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE', '暂时禁用');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL', '电子邮件');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_PM', '私信');
+define('_MI_SYSTEM_MENUS_ACTIVE', '启用菜单系统');
+define('_MI_SYSTEM_MENUS_ACTIVE_DESC', '启用内置菜单管理系统进行站点导航');
